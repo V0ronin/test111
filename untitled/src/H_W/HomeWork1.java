@@ -38,15 +38,5 @@ public class HomeWork1 {
         System.out.println(myChar1);
         System.out.println(myChar2);
         System.out.println(myChar3);
-
-
-
-
-
-
-
-
-
-
     }
 }
