@@ -1,4 +1,4 @@
-package h_w;
+package h_w_4;
 
 public class table_mult {
     public static void main(String[] args) {

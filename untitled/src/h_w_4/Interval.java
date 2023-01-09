@@ -1,4 +1,4 @@
-package h_w;
+package h_w_4;
 
 import java.util.Scanner;
 
