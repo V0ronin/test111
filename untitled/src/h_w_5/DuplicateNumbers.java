@@ -7,25 +7,25 @@ import java.util.Random;
 public class DuplicateNumbers {
     public static void main(String[] args) {
         Random rand = new Random();
-        HashMap<Integer, Integer> counter = new HashMap<>();
+        HashMap<Integer, Integer> countries = new HashMap<>();
 
 
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers_name = new ArrayList<>();
 
         for (int i = 0; i < 100; i++) {
-            numbers.add(rand.nextInt(50));
+            numbers_name.add(rand.nextInt(50));
         }
 
 
-        for (int nomer : numbers) {
-            if (counter.containsKey(nomer)) {
-                counter.put(nomer, (counter.get(nomer) + 1));
+        for (int number : numbers_name) {
+            if (countries.containsKey(number)) {
+                countries.put(number, (countries.get(number) + 1));
             } else {
-                counter.put(nomer, 1);
+                countries.put(number, 1);
 //                для красоты я бы поставил тут ноль, но задание было сосчитать именно повторяющиеся цифры
             }
         }
-        counter.forEach((num, gum) -> System.out.println("we have num " + num + ", " + gum + " times"));
+        countries.forEach((num, gum) -> System.out.println("we have num " + num + ", " + gum + " times"));
 
 
     }

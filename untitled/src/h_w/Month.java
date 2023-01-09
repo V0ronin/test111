@@ -2,7 +2,7 @@ package h_w;
 
 import java.util.Scanner;
 
-public class month {
+public class Month {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

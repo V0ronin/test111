@@ -1,6 +1,6 @@
 package h_w_4;
 
-public class table_mult {
+public class TableMult {
     public static void main(String[] args) {
         for (int i = 1; i <=10 ; i++) {
             System.out.println();

@@ -1,6 +1,6 @@
 package h_w_4;
 
-public class average {
+public class Average {
     public static void main(String[] args) {
         int sum = 0;
         int count = 0;

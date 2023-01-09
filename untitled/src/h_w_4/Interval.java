@@ -7,6 +7,7 @@ public class Interval {
         Scanner input = new Scanner(System.in);
         System.out.println("print your number:");
         int a = input.nextInt();
+        input.close();
         if (a >=0 && a<=14) {
             System.out.println("interval is [0-14]");
         } else if (a >=15 && a<=35) {System.out.println("interval is [15-35]");
