@@ -14,7 +14,7 @@ public class Numbers_Name {
 
         ArrayList<String> itog = new ArrayList<>();
 
-        
+
             for (int i = 1; i <= 10; i++) {
             numbers.add(i);
         }
