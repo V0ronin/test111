@@ -8,6 +8,7 @@ public class task_1 {
             if (i % 2 == 0) {
                 System.out.println(i);
 
+
             }
         }
     }
