@@ -22,6 +22,7 @@ public class DuplicateNumbers {
                 counter.put(nomer, (counter.get(nomer) + 1));
             } else {
                 counter.put(nomer, 1);
+//                для красоты я бы поставил тут ноль, но задание было сосчитать именно повторяющиеся цифры
             }
         }
         counter.forEach((num, gum) -> System.out.println("we have num " + num + ", " + gum + " times"));
